@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        justify-content: center;
+        display:grid;
+        transition:0.5s;
+
+    }
+
+    .color{
+        display: grid;
+        justify-content: center;
+        margin: 50px;
+        margin-left: 90px;
+        height: 200px;;
+        width: 200px;
+        border: 3px solid black ;
+        box-shadow:-4px 4px 15px rgb(40, 40, 40) ;
+    }
+    h3{
+        margin-top: auto;
+        margin-left: 20px;
+    }
+    button{
+        background-color: rgb(255, 255, 255);
+        margin-top:40px;
+        margin-left: 10px;
+        border-radius: 20px;
+        border: none;
+        color:aliceblue;
+        height:50px;    
+        width:150px;
+        background-color: blue;
+        transition:1s;
+    }
+    button:hover{
+        box-shadow:4px 4px 10px rgb(40, 40, 40) ;
+        height:55px;    
+        width:155px;
+        cursor:context-menu;
+    }
+    div{
+        border-radius: 10px;
+        border:2px solid black;
+    }
+</style>
+<body>
+    <h1> Tab button for change color</h1>
+    <div class="color" style="border:none ;">
+        <h3>rgb(255, 255, 255)</h2>
+            <button id="btn">change color</button>
+    </div>
+
+
+    <script src="moc.js" >
+
+    </script>
+</body>
+</html>

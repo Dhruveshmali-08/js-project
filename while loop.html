@@ -1,0 +1,18 @@
+<script>
+    let guess=prompt("enter movie name :");
+    console.log(" (hint: a_at_r)(tip:quit for game enter quit)");
+    while((guess!="avatar")&&(guess!="quit"))
+    {
+        console.log("wrong  guass")
+        guess=prompt("enter correct name:");
+    }
+    if(guess=="avatar"){
+        console.log("correct guass");
+    }
+    else if(guess=="quit"){
+        console.log("you quit this game")
+    }
+    else{
+        console.log(" (hint: a_at_r)(tip:quit for game enter quit)");
+    }
+</script>
